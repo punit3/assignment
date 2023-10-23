@@ -1,0 +1,152 @@
+.header-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 64px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #dadce0;
+  opacity: 1;
+}
+
+.time-stamp {
+  position: absolute;
+  top: 11px;
+  left: 280px;
+  width: 252px;
+  height: 18px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 14px/18px Google Sans;
+  letter-spacing: 0px;
+  color: #5f6368;
+  opacity: 1;
+}
+
+.logo-container {
+  position: absolute;
+  top: 6px;
+  left: 25px;
+  width: 173px;
+  height: 52px;
+  /* UI Properties */
+  /* background: transparent url('/logo.png') 0% 0% no-repeat padding-box; */
+  opacity: 1;
+}
+.company-name {
+  top: 32px;
+  left: 280px;
+  width: 157px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 500 16px/20px Google Sans;
+  letter-spacing: 0px;
+  color: #3c4043;
+  opacity: 1;
+  position: absolute;
+}
+
+.help-icon {
+  position: absolute;
+  top: 16px;
+  left: 1200px;
+  width: 24px;
+  height: 24px;
+  opacity: 1;
+}
+
+.support {
+  position: absolute;
+  top: 43px;
+  left: 1190px;
+  width: 43px;
+  height: 13px;
+  /* UI Properties */
+  text-align: right;
+  font: normal normal normal 10px/18px Google Sans;
+  letter-spacing: 0.01px;
+  color: #5f6368;
+  opacity: 1;
+}
+.notification-icon {
+  position: absolute;
+  top: 16px;
+  left: 1285px;
+  width: 24px;
+  height: 24px;
+  /* UI Properties */
+  /* background: transparent url('img/Group 8570.png') 0% 0% no-repeat padding-box; */
+  opacity: 1;
+}
+
+.notifications-text {
+  position: absolute;
+  top: 43px;
+  left: 1265px;
+  width: 73px;
+  height: 13px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 10px/18px Google Sans;
+  letter-spacing: 0.01px;
+  color: #5f6368;
+  opacity: 1;
+}
+
+.login-avatar {
+  position: absolute;
+  top: 16px;
+  left: 1370px;
+  width: 32px;
+  height: 32px;
+  /* UI Properties */
+  /* background: transparent url('img/Ellipse 488.png') 0% 0% no-repeat padding-box; */
+  opacity: 1;
+}
+.avatar-name {
+  position: absolute;
+
+  top: 8px;
+  left: 11px;
+  width: 11px;
+  width: 11px;
+  height: 18px;
+  /* UI Properties */
+  /* background: transparent url('img/R.png') 0% 0% no-repeat padding-box; */
+  opacity: 1;
+}
+.notification-red {
+  position: absolute;
+  top: 10px;
+  left: 1300px;
+  width: 6px;
+  height: 6px;
+  background: #d93025 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 100%;
+}
+
+.dropdown-down-arrow {
+  position: relative;
+  top: 30px;
+  left: 437px;
+  width: 24px;
+  height: 24px;
+  /* UI Properties */
+  /* background: transparent url("img/arrow_drop_down_black_24dp.png") 0% 0% */
+  /* no-repeat padding-box; */
+  opacity: 1;
+}
+
+.header-seperator-line {
+    position:relative;
+  top: 13px;
+  left: 256px;
+  width: 0px;
+  height: 40px;
+  /* UI Properties */
+  border: 1px solid #e8f0fe;
+  opacity: 1;
+}

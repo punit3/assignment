@@ -1,0 +1,216 @@
+.sidenav-container {
+  position: relative;
+  top: 65px;
+  left: 0px;
+  width: 72px;
+  height: 702px;
+  /* UI Properties */
+  background: #f7f7f7 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.dashboard-icon {
+    position: relative;
+    top: 18px;
+    left: 22px;
+    /* width: 54px; */
+    /* height: 14px; */
+    text-align: center;
+    font: normal normal normal 11px/14px Google Sans;
+    letter-spacing: 0px;
+    color: #616161;
+    opacity: 1;
+    width: 24px;
+    height: 24px;
+}
+
+.dashboard-menu {
+  top: 25px;
+  left: 9px;
+  position: relative;
+  width: 54px;
+  height: 14px;
+  text-align: center;
+  font: normal normal normal 11px/14px Google Sans;
+  letter-spacing: 0px;
+  color: #616161;
+  opacity: 1;
+}
+
+.menu-container {
+  /* top: 199px; */
+  left: 0px;
+  width: 72px;
+  height: 75px;
+  /* background: #FFFFFF 0% 0% no-repeat padding-box; */
+  opacity: 1;
+  /* border: 1px solid; */
+}
+
+.active-menu {
+  border-left: 2px double #fd9933;
+  background-color: white;
+}
+
+.work-history-icon {
+  position: relative;
+  top: 14px;
+  left: 24px;
+  width: 24px;
+  height: 24px;
+
+  opacity: 1;
+}
+
+.work-history-menu {
+  position: relative;
+  top: 16px;
+  left: 8px;
+  width: 56px;
+  height: 28px;
+
+  text-align: center;
+  font: normal normal normal 11px/14px Google Sans;
+  letter-spacing: 0px;
+  color: #5f6368;
+  opacity: 1;
+}
+
+.settings-icon {
+  position: relative;
+  top: 14px;
+  left: 24px;
+  width: 24px;
+  height: 24px;
+
+  opacity: 1;
+}
+
+.settings-menu {
+  position: relative;
+  top: 16px;
+  left: 8px;
+  width: 56px;
+  height: 28px;
+
+  text-align: center;
+  font: normal normal normal 11px/14px Google Sans;
+  letter-spacing: 0px;
+  color: #5f6368;
+  opacity: 1;
+}
+
+.charts-icon {
+  position: relative;
+  top: 16px;
+  left: 24px;
+  width: 24px;
+  height: 24px;
+
+  opacity: 1;
+}
+
+.charts-menu {
+  position: relative;
+  top: 14px;
+  left: 16px;
+  width: 40px;
+  height: 28px;
+
+  text-align: center;
+  font: normal normal normal 11px/14px Google Sans;
+  letter-spacing: 0px;
+  color: #5f6368;
+  opacity: 1;
+}
+
+.more-icon {
+  position: relative;
+  top: 16px;
+  left: 24px;
+  width: 24px;
+  height: 24px;
+
+  opacity: 1;
+}
+
+.more-menu {
+  position: relative;
+  top: 14px;
+  left: 23px;
+  width: 26px;
+  height: 14px;
+
+  text-align: center;
+  font: normal normal normal 11px/14px Google Sans;
+  letter-spacing: 0px;
+  color: #5f6368;
+  opacity: 1;
+}
+
+.sidenav-submenu {
+  position: relative;
+  top: 75px;
+  padding-left: 5px;
+}
+
+.submenu-item-container {
+  width: 180px;
+  height: 40px;
+
+  opacity: 1;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  font-size: 14px;
+  color: #616161;
+  font-family: "Google Sans";
+  font-weight: 400;
+}
+.line {
+  position: relative;
+  top: 65px;
+  /* left: 256px; */
+  width: 0px;
+  height: 1600px;
+
+  border: 1px solid #dadce0;
+  opacity: 1;
+}
+
+.active {
+  background: #e8f0fd 0% 0% no-repeat padding-box;
+  border-radius: 15px 0px 0px 15px;
+  color: #3c4043;
+  font-weight: 500;
+}
+
+.subnav-bottom-seperator {
+  position: relative;
+  top: 570px;
+  left: 0.5px;
+  width: 175px;
+  height: 0px;
+  /* UI Properties */
+  border: 1px solid #dadce0;
+  opacity: 1;
+}
+
+.subnav-close-btn{
+    position: relative;
+    top: 570px;
+left: 140px;
+width: 40px;
+height: 40px;
+/* UI Properties */
+/* background: transparent url('img/Group 5558.png') 0% 0% no-repeat padding-box; */
+opacity: 1;
+}
+
+.active-line{
+   position: absolute;
+height: 70px;
+/* UI Properties */
+border: 2px solid #FD9933;
+opacity: 1;
+}

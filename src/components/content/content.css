@@ -1,0 +1,393 @@
+.content-main-container {
+  position: relative;
+  top: 66px;
+  width: 1200px;
+}
+
+.content-header {
+  align-items: center;
+  display: grid;
+
+  /* width: 1110px;
+ */
+  height: 49px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+.header-title {
+  width: 95px;
+  height: 25px;
+  text-align: left;
+  font: normal normal medium 20px/25px Google Sans;
+  letter-spacing: 0px;
+  color: #3c4043;
+  opacity: 1;
+  font-size: 20px;
+  font-weight: 500;
+  left: 20px;
+  position: relative;
+}
+
+.order-detail {
+  /* top: 30px; */
+  font-size: 20px;
+  font-weight: 500;
+  /* left: 20px; */
+  /* position: relative; */
+  width: 64px;
+  height: 25px;
+  text-align: left;
+  font: normal normal medium 20px/25px Google Sans;
+  letter-spacing: 0px;
+  color: #3c4043;
+  opacity: 1;
+}
+
+.about-page {
+  /* position: relative; */
+  /* top: 32px; */
+  /* left: 20px; */
+  /* width: 222px; */
+  height: 16px;
+
+  text-align: left;
+  font: normal normal normal 12px/18px Google Sans;
+  letter-spacing: 0px;
+  color: #5f6368;
+  opacity: 1;
+  font-size: 12px;
+}
+
+.upload-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 0px;
+  right: 90px;
+  width: 152px;
+  height: 40px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.upload-icon {
+  /* position: relative; */
+  /* padding: 5px; */
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+
+  /* UI Properties */
+  /* background: transparent url('img/upload_black_24dp.png') 0% 0% no-repeat padding-box; */
+  opacity: 1;
+}
+.upload-btn-text {
+  font-weight: 500;
+  position: relative;
+  width: 100px;
+  height: 20px;
+  /* UI Properties */
+  text-align: right;
+  font: normal normal 500 16px/20px Google Sans;
+  letter-spacing: 0px;
+  color: #276ef1;
+  opacity: 1;
+  /* padding: 5px; */
+}
+
+.save-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* top: 141px; */
+  right: 70px;
+  width: 100px;
+  height: 40px;
+  background: #276ef1 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.save-btn-text {
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 500 16px/20px Google Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  font-family: "Google Sans";
+  font-weight: 500;
+}
+
+.content-body-header {
+  padding: 30px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-header-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.group-btn {
+  position: relative;
+  right: 40px;
+}
+
+.body-header-left {
+  position: relative;
+  left: 20px;
+}
+
+.body-header-seperator {
+  /* top: 200px; */
+  position: relative;
+  left: 20px;
+  width: 98%;
+  height: 0px;
+  /* UI Properties */
+  border: 1px solid #005ba6;
+  opacity: 1;
+}
+.company-logo {
+  width: 364px;
+  height: 119px;
+  /* background-image: transparent url('/img/oracle.png') 0% 0% no-repeat padding-box; */
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.page-body-container {
+  position: relative;
+  margin-left: 15%;
+}
+
+.organisation-logo {
+  font: normal normal 500 14px/18px Google Sans;
+  letter-spacing: 0px;
+  color: #3c4043;
+  opacity: 1;
+  position: relative;
+  top: 25px;
+}
+
+.company-detail-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 25px;
+}
+
+.company-detail {
+  margin-left: 30px;
+}
+
+.organisation-about {
+  /* top: 266px;
+left: 823px; */
+  width: 364px;
+  height: 18px;
+  /* background: transparent url('img/Lorem Ipsum is simply dummy text of the printing and typesetting industry..png') 0% 0% no-repeat padding-box; */
+  opacity: 1;
+  position: relative;
+  top: 32px;
+}
+
+.error-message {
+  width: 329px;
+  height: 32px;
+  text-align: left;
+  font: normal normal 400 12px/16px Google Sans;
+  letter-spacing: 0px;
+  color: #d7242e;
+  opacity: 1;
+  position: relative;
+  margin-top: 40px;
+}
+
+/* //form css */
+
+::placeholder {
+  width: 158px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 16px/18px Google Sans;
+  letter-spacing: 0px;
+  color: #dadce0;
+  opacity: 1;
+  padding: 5px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 10px;
+}
+
+.field-title {
+  /* width: 41px; */
+  height: 18px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 500 14px/18px Google Sans;
+  letter-spacing: 0px;
+  color: #5f6368;
+}
+.input-field {
+  width: 364px;
+  height: 40px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.field-input-field {
+  position: relative;
+  margin-top: 8px;
+}
+
+.form-field-container {
+  margin-top: 15px;
+}
+.dropdown-icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  /* background: transparent url(img/arrow_drop_down_black_24dp.png) 0% 0% no-repeat padding-box; */
+  opacity: 1;
+  top: 10px;
+  left: 90%;
+}
+
+.right-form-sub-container {
+  margin-left: 20px;
+}
+
+.check-box {
+  width: 24px;
+  height: 24px;
+  /* UI Properties */
+  /* background: transparent url('img/check_box_black_24dp-3.png') 0% 0% no-repeat padding-box; */
+  opacity: 1;
+}
+
+.checkbox-text {
+  width: 96px;
+  height: 18px;
+  text-align: left;
+  font: normal normal normal 14px/18px Google Sans;
+  letter-spacing: 0px;
+  color: #3c4043;
+  opacity: 1;
+}
+.erp-selector-container {
+  display: flex;
+  width: 364px;
+  height: 44px;
+  /* background: transparent url(img/Rectangle 17526.png) 0% 0% no-repeat padding-box; */
+  border-radius: 4px;
+  opacity: 1;
+  justify-content: space-between;
+  align-items: center;
+  width: 364px;
+}
+
+.erp-selector {
+  width: 37px;
+  height: 25px;
+  /* UI Properties */
+  /* background: transparent url('img/Group 10073.png') 0% 0% no-repeat padding-box; */
+  opacity: 1;
+  position: relative;
+  right: 10px;
+}
+.erpfield-text {
+  width: 127px;
+  height: 16px;
+  /* background: transparent url(img/ERP Module (N/Y).png) 0% 0% no-repeat padding-box; */
+  opacity: 1;
+  position: relative;
+  left: 10px;
+}
+
+.body-seperator {
+    position: relative;
+    left: 20px;
+    width: 98%;
+    height: 0px;
+    border: 1px solid #DADCE0;
+    opacity: 1;
+    margin-top: 25px;
+}
+
+.dropdown-down{
+    width: 36px;
+height: 36px;
+/* UI Properties */
+/* background: transparent url('img/Group 10163.png') 0% 0% no-repeat padding-box; */
+opacity: 1;
+}
+
+.page-bottom-dropdown-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 25px;
+}
+
+.dropdown-option-title {
+    width: 150px;
+    height: 25px;
+    text-align: left;
+    font: normal normal 500 20px/25px Google Sans;
+    letter-spacing: 0px;
+    color: #3C4043;
+    opacity: 1;
+   
+}
+
+.dropdown-option-desc {
+    /* top: 1217px; */
+    /* left: 280px; */
+    width: 403px;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 12px/18px Google Sans;
+    letter-spacing: 0px;
+    color: #5F6368;
+    opacity: 1;
+}
+
+.change-option{
+    position: relative;
+    /* top: 232px; */
+left: 300px;
+width: 42px;
+height: 16px;
+text-align: left;
+text-decoration: underline;
+font: normal normal normal 12px/16px Google Sans;
+letter-spacing: 0px;
+color: #5F6368;
+opacity: 1;
+}
+
+.cloud-img-container{
+  width: 180px;
+height: 110px;
+/* UI Properties */
+/* background: transparent url('img/Group 10166.png') 0% 0% no-repeat padding-box; */
+opacity: 1;
+}
